@@ -1,0 +1,54 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.margin {
+    margin: 20px;
+}
+
+body {
+    text-align: center;
+    background-color: bisque;
+    font-size: 25px;
+}
+
+h1{
+    text-decoration: underline;
+}
+
+form {
+    width: 700px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    margin: auto;
+    padding: 20px;
+}
+
+#results {
+    width: 800px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+input{
+    width: 300px;
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+    font-size: 20px;
+}
+
+.btn {
+    width: 150px;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.btn:active{
+    box-shadow: 2px 2px 5px #414141;
+}
